@@ -67,10 +67,14 @@ public class Main {
     public static void main(String[] args) {
         // Create a FastReader instance for input
         FastReader s = new FastReader();
+        PrintWriter out = new PrintWriter(System.out);
+        
         int tt = s.nextInt(); 
         for(int t=0;t<tt;t++){
             System.out.println("HI"); 
             
         }
+        
+        out.close();
     }
 }
