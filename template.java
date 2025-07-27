@@ -5,6 +5,7 @@ import java.io.*;
 
 // "static void main" must be defined in a public class.
 public class Main {
+    
     // FastReader class for efficient input
     static class FastReader {
 
