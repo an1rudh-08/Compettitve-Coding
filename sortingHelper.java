@@ -15,12 +15,12 @@ public static void sortD(int[] arr) {
 }
 
 // REVERSE int array
-static void reverse(int[] a){
+static void rev(int[] a){
     for(int l=0,r=a.length-1;l<r;l++,r--){ int t=a[l]; a[l]=a[r]; a[r]=t; }
 }
 
 // REVERSE char array
-static void reverse(char[] c){
+static void rev(char[] c){
     for(int l=0,r=c.length-1;l<r;l++,r--){ char t=c[l]; c[l]=c[r]; c[r]=t; }
 }
 
